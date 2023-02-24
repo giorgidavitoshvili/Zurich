@@ -1,0 +1,422 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.homepage{
+    max-width: 2483px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    color: #888888; 
+}
+h2{
+    font-size: 44px;
+    line-height: 150px;
+    align-items: center;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+
+}
+li{
+    list-style: none;
+    padding-right: 70px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 72px;
+}
+ul :last-child {
+    padding: 0;
+}
+li a{
+    text-decoration: none;
+    color: #888888; 
+}
+h2 a{
+    text-decoration: none;
+    color: #888888;
+}
+.social-accs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.social-accs p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 72px;
+    margin-top: 28px;
+    padding-right: 10px;
+}
+.logos{
+    width: 75px;
+    height: 75px;
+    border: 1px solid #D69991 ;
+    border-radius: 50%;
+    background-color: #D69991;
+    margin-right: 10px;
+    text-align: center;
+}
+.logos img{
+    padding-top: 30%;
+}
+.mystory{
+    width: 1600px;
+    height: 1240px;
+    margin-left:140px;
+}
+.greybox{
+    width: 1242px;
+    height: 1240px;
+    background: #AAAAAA;
+}
+.infobox{
+    position: absolute;
+    z-index: 10;
+    width: 1016px;
+    height: 1000px;
+    background: #282828;
+    box-shadow: 0px 120px 240px rgba(15, 15, 15, 0.16);
+    top: 370px;
+    margin-left: 500px;
+    text-align: left;
+    padding-left: 80px;
+}
+.information h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    display: flex;
+    letter-spacing: 2px;
+    color: #D6A091;
+    padding-top: 50px;
+}
+.information h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 104px;
+    letter-spacing: -2.2px;
+    color: #ffffff;
+}
+.information p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.7px;
+    color: #888888;
+}
+.information button{
+    width: 344px;
+    height: 113px;
+    background: #D69991;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+.mywork{
+    width: 1800px;
+    height: 1246px;
+    background: #222222;
+    margin-left:50px ;
+    margin-top:224px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mywork-text{
+    width: 689px;
+    height: 603px;
+    margin-top: 306px;
+    margin-left: 118px;
+}
+.text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D6A091;
+    padding-top: 30px;
+}
+.text h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 88px;
+    letter-spacing: -2.2px;
+    color: #FFFFFF;
+    line-height: 104px;
+}
+.text button{
+    width: 342px;
+    height: 113px;
+    background: #D69991;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.grey-add{
+    width: 700px;
+    height: 1000px;
+    background-color: #AAAAAA;
+    margin-top:136px;
+    margin-right: 100px;
+}
+.grey-add h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    padding-top: 700px;
+}
+.grey-add p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+footer{
+    height: 2664px;
+    background-color: #282828;
+    margin-top: 222px;
+    padding-top: 152px;
+}
+.wedding{
+    height: 1120px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.message-love{
+    width: 204px;
+    height: 204px;
+    background-color: #D69991;
+    border: 1px solid #D69991;
+    border-radius: 50%;
+    margin-left: 838px;
+}
+.wedding h2{
+    width: 1054px;
+    height: 209px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 88px;
+    line-height: 104px;
+    text-align: center;
+    letter-spacing: -2.2px;
+    color: #FFFFFF;
+    margin-left: 413px;
+    margin-top: 7px;
+}
+.wedding p{
+    width: 1023px;
+    height: 96px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.7px;
+    color: #888888;
+    margin-left:430px ;
+    margin-top: 14px;
+}
+.wedding button{
+    width: 352px;
+    height: 113px;
+    background-color: #D69991;
+    border: 1px solid #D69991;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 58px;
+    margin-left: -38px;
+}
+.gallery{
+    height: 583px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -300px;
+    margin-right: -300px;
+}
+.darkblocks{
+    width: 523px;
+    height: 523px;
+    background-color:  #AAAAAA;
+}
+.greyblocks{
+    margin-top: 80px;
+    width: 523px;
+    height: 523px;
+    background-color: #BBBBBB;
+}
+.whiteadd {
+    width: 424px;
+    height: 103;
+    background-color: white;
+    position: absolute;
+    left: 741px;
+    top: 4594px;
+    box-shadow: 0px 120px 240px rgba(15, 15, 15, 0.6);
+}
+.whiteadd p{
+    width: 401px;
+    height: 96px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 44px;
+    color: #222222;
+    padding-left: 30px;
+}
+.foot-bottom{
+    height: 844px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.nav2 nav ul{
+    width: 240px;
+    height: 391px;
+    display: flex;
+    flex-direction:column ;
+    margin-top: 153px;
+}
+.nav2 nav ul li{
+    color: white;
+    padding-bottom: 20px;
+}
+.follow2 h2{
+    width: 295px;
+    height: 30px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 60px;
+    line-height: 30px;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+    margin-top: 233px;
+}
+.logoebi{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.follow2 p{
+    width: 560px;
+    height: 89px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 22px;
+    align-items: center;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+    color: #888888;
+}
+.subs h2{
+    width: 650px;
+    height: 30px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 60px;
+    align-items: center;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+    margin-top: 167px;
+}
+.subs p{
+    width: 771px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 22px;
+    align-items: center;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+    color: #888888;
+}
+.email-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    height: 114px;
+    background: rgba(238, 238, 238, 0.15);
+}
+.email-input input{
+    border: none;
+    width: 700px;
+    background-color: rgb(238 238 238 / 0%);
+    color:#888888 ;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 28px;
+    align-items: center;
+    letter-spacing: 0.7px;
+}
+.email-input :last-child{
+    padding: 4px;
+    margin-top: 15px;
+}
